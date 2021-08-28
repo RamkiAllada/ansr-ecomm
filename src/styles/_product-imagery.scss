@@ -1,0 +1,23 @@
+.image {
+    &__responsive {
+        width: 100%;
+        height: auto;
+        max-height: 100%;
+    }
+    &__hero {
+        width: 400px;
+        height: auto;
+    }
+    &__btn {
+        background: none;
+        border: 1px solid #c0c0c0;
+        height: 100%;
+    }
+    &__tb {
+        list-style: none;
+        &-item {
+            width: 100px;
+            height: 100px;
+        }
+    }
+}
